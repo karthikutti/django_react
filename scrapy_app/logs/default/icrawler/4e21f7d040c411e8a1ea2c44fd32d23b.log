@@ -1,0 +1,168 @@
+2018-04-15 21:17:33 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapy_app)
+2018-04-15 21:17:33 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 |Anaconda, Inc.| (default, Jan 16 2018, 10:22:32) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
+2018-04-15 21:17:33 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapy_app', 'LOG_FILE': 'logs\\default\\icrawler\\4e21f7d040c411e8a1ea2c44fd32d23b.log', 'NEWSPIDER_MODULE': 'scrapy_app.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['scrapy_app.spiders'], 'USER_AGENT': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'}
+2018-04-15 21:17:33 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-04-15 21:17:34 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-04-15 21:17:34 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-04-15 21:17:34 [scrapy.middleware] INFO: Enabled item pipelines:
+['scrapy_app.pipelines.ScrapyAppPipeline']
+2018-04-15 21:17:34 [scrapy.core.engine] INFO: Spider opened
+2018-04-15 21:17:34 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-04-15 21:17:34 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-04-15 21:17:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.ipinfusion.com/robots.txt> (referer: None)
+2018-04-15 21:17:35 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.ipinfusion.com/> from <GET http://www.ipinfusion.com>
+2018-04-15 21:17:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/> (referer: None)
+2018-04-15 21:17:37 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'vimeo.com': <GET https://vimeo.com/236645175>
+2018-04-15 21:17:37 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'player.vimeo.com': <GET https://player.vimeo.com/video/188873692?autoplay=1>
+2018-04-15 21:17:37 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'twitter.com': <GET https://twitter.com/ipinfusion>
+2018-04-15 21:17:37 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 't.co': <GET https://t.co/tqgoA338wF>
+2018-04-15 21:17:37 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.facebook.com': <GET https://www.facebook.com/IP-Infusion-139574336110700/?fref=ts>
+2018-04-15 21:17:37 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.linkedin.com': <GET https://www.linkedin.com/uas/login?trk=sentinel_org_block&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F22189%3Ftrk%3Dvsrp_companies_res_name%26trkInfo%3DVSRPsearchId%253A75347791461864194002%252CVSRPtargetId%253A22189%252CVSRPcmpt%253Aprimary>
+2018-04-15 21:17:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.ipinfusion.com/news-events/london-internet-exchange-to-use-ipinfusions-ocnos/> (referer: None)
+2018-04-15 21:17:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.ipinfusion.com/news-events/london-internet-exchange-to-use-ipinfusions-ocnos/>
+{'url': 'http://www.ipinfusion.com/news-events/london-internet-exchange-to-use-ipinfusions-ocnos/'}
+2018-04-15 21:17:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com>
+{'url': 'https://www.ipinfusion.com'}
+2018-04-15 21:17:38 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.ipinfusion.com/london-internet-exchange-linx-uses-ocnos/> from <GET https://www.ipinfusion.com/?page_id=27830&preview=true>
+2018-04-15 21:17:38 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.ipinfusion.com/portal-login/> from <GET https://www.ipinfusion.com/partner-portal/>
+2018-04-15 21:17:38 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://www.ipinfusion.com/portal-login/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2018-04-15 21:17:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/privacy-policy/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/privacy-policy/>
+{'url': 'https://www.ipinfusion.com/privacy-policy/'}
+2018-04-15 21:17:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/terms-of-use/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/news-events/serbian-open-exchange-sox-deploys-ip-infusions-ocnos-network-operating-system/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/segment-routing-a-scalable-way-for-end-end-traffic-engineering/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/terms-of-use/>
+{'url': 'https://www.ipinfusion.com/terms-of-use/'}
+2018-04-15 21:17:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/news-events/serbian-open-exchange-sox-deploys-ip-infusions-ocnos-network-operating-system/>
+{'url': 'https://www.ipinfusion.com/news-events/serbian-open-exchange-sox-deploys-ip-infusions-ocnos-network-operating-system/'}
+2018-04-15 21:17:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/segment-routing-a-scalable-way-for-end-end-traffic-engineering/>
+{'url': 'https://www.ipinfusion.com/segment-routing-a-scalable-way-for-end-end-traffic-engineering/'}
+2018-04-15 21:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/career/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/career/>
+{'url': 'https://www.ipinfusion.com/career/'}
+2018-04-15 21:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/customers/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/customers/>
+{'url': 'https://www.ipinfusion.com/customers/'}
+2018-04-15 21:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/global-locations/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/leadership-team/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/industry-associations/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/global-locations/>
+{'url': 'https://www.ipinfusion.com/global-locations/'}
+2018-04-15 21:17:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/leadership-team/>
+{'url': 'https://www.ipinfusion.com/leadership-team/'}
+2018-04-15 21:17:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/industry-associations/>
+{'url': 'https://www.ipinfusion.com/industry-associations/'}
+2018-04-15 21:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/partner_cat/technology-partners/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/partner_cat/technology-partners/>
+{'url': 'https://www.ipinfusion.com/partner_cat/technology-partners/'}
+2018-04-15 21:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/partner_cat/hardware-partners/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/news-events/ip-infusion-presents-at-networking-field-day-15/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/london-internet-exchange-linx-uses-ocnos/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/partner_cat/hardware-partners/>
+{'url': 'https://www.ipinfusion.com/partner_cat/hardware-partners/'}
+2018-04-15 21:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/news-events/ip-infusion-presents-at-networking-field-day-15/>
+{'url': 'https://www.ipinfusion.com/news-events/ip-infusion-presents-at-networking-field-day-15/'}
+2018-04-15 21:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/london-internet-exchange-linx-uses-ocnos/>
+{'url': 'https://www.ipinfusion.com/london-internet-exchange-linx-uses-ocnos/'}
+2018-04-15 21:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/news-events/ip-infusion-showcases-ocnos-at-trade-shows-around-the-world/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/site-map/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/products/zebos/zebic/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/news-events/ip-infusion-showcases-ocnos-at-trade-shows-around-the-world/>
+{'url': 'https://www.ipinfusion.com/news-events/ip-infusion-showcases-ocnos-at-trade-shows-around-the-world/'}
+2018-04-15 21:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/site-map/>
+{'url': 'https://www.ipinfusion.com/site-map/'}
+2018-04-15 21:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/products/zebos/zebic/>
+{'url': 'https://www.ipinfusion.com/products/zebos/zebic/'}
+2018-04-15 21:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/products/zebos/zebm/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/partner_cat/channel-partners/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/products/zebos/zebm/>
+{'url': 'https://www.ipinfusion.com/products/zebos/zebm/'}
+2018-04-15 21:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/products/zebos/zebos-xp/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/partner_cat/channel-partners/>
+{'url': 'https://www.ipinfusion.com/partner_cat/channel-partners/'}
+2018-04-15 21:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/products/zebos/zebos-xp/>
+{'url': 'https://www.ipinfusion.com/products/zebos/zebos-xp/'}
+2018-04-15 21:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/products/virnos/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/products/zebos/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/products/virnos/>
+{'url': 'https://www.ipinfusion.com/products/virnos/'}
+2018-04-15 21:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/contact-us/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/products/zebos/>
+{'url': 'https://www.ipinfusion.com/products/zebos/'}
+2018-04-15 21:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/portal-login/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/contact-us/>
+{'url': 'https://www.ipinfusion.com/contact-us/'}
+2018-04-15 21:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/about/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/portal-login/>
+{'url': 'https://www.ipinfusion.com/portal-login/'}
+2018-04-15 21:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/about/>
+{'url': 'https://www.ipinfusion.com/about/'}
+2018-04-15 21:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/resources/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/support/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/evaluate/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/partner/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/resources/>
+{'url': 'https://www.ipinfusion.com/resources/'}
+2018-04-15 21:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/products/ocnos/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/support/>
+{'url': 'https://www.ipinfusion.com/support/'}
+2018-04-15 21:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/solutions/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/evaluate/>
+{'url': 'https://www.ipinfusion.com/evaluate/'}
+2018-04-15 21:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/partner/>
+{'url': 'https://www.ipinfusion.com/partner/'}
+2018-04-15 21:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/products/ocnos/>
+{'url': 'https://www.ipinfusion.com/products/ocnos/'}
+2018-04-15 21:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/solutions/>
+{'url': 'https://www.ipinfusion.com/solutions/'}
+2018-04-15 21:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ipinfusion.com/products/> (referer: https://www.ipinfusion.com/)
+2018-04-15 21:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ipinfusion.com/products/>
+{'url': 'https://www.ipinfusion.com/products/'}
+2018-04-15 21:17:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-04-15 21:17:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 14314,
+ 'downloader/request_count': 38,
+ 'downloader/request_method_count/GET': 38,
+ 'downloader/response_bytes': 351621,
+ 'downloader/response_count': 38,
+ 'downloader/response_status_count/200': 35,
+ 'downloader/response_status_count/301': 2,
+ 'downloader/response_status_count/302': 1,
+ 'dupefilter/filtered': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 4, 15, 15, 47, 41, 588863),
+ 'item_scraped_count': 33,
+ 'log_count/DEBUG': 79,
+ 'log_count/INFO': 7,
+ 'offsite/domains': 6,
+ 'offsite/filtered': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 35,
+ 'scheduler/dequeued': 37,
+ 'scheduler/dequeued/memory': 37,
+ 'scheduler/enqueued': 37,
+ 'scheduler/enqueued/memory': 37,
+ 'start_time': datetime.datetime(2018, 4, 15, 15, 47, 34, 13126)}
+2018-04-15 21:17:41 [scrapy.core.engine] INFO: Spider closed (finished)
